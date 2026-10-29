@@ -1,0 +1,173 @@
+{
+  "schemaVersion": 1,
+  "generatedBy": "@file-viewer/vite-plugin",
+  "rendererIds": [
+    "office-word-openxml",
+    "office-word-binary",
+    "open-document",
+    "pdf",
+    "ofd",
+    "office-presentation",
+    "spreadsheet-openxml",
+    "spreadsheet-dbf",
+    "archive",
+    "email",
+    "code",
+    "markdown",
+    "image",
+    "audio",
+    "video",
+    "office-presentation-binary"
+  ],
+  "assets": [
+    {
+      "rendererId": "pdf",
+      "id": "pdf-worker",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\pdf\\pdf.worker.mjs",
+      "copied": true,
+      "sourcePackage": "pdfjs-dist",
+      "sourceVersion": "5.4.624"
+    },
+    {
+      "rendererId": "pdf",
+      "id": "pdf-cmaps",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\pdf\\cmaps",
+      "copied": true,
+      "sourcePackage": "pdfjs-dist",
+      "sourceVersion": "5.4.624"
+    },
+    {
+      "rendererId": "pdf",
+      "id": "pdf-wasm",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\pdf\\wasm",
+      "copied": true,
+      "sourcePackage": "pdfjs-dist",
+      "sourceVersion": "5.4.624"
+    },
+    {
+      "rendererId": "pdf",
+      "id": "pdf-standard-fonts",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\pdf\\standard_fonts",
+      "copied": true,
+      "sourcePackage": "pdfjs-dist",
+      "sourceVersion": "5.4.624"
+    },
+    {
+      "rendererId": "pdf",
+      "id": "pdf-cjk-font-fallback",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\pdf\\fonts",
+      "copied": true,
+      "required": true
+    },
+    {
+      "rendererId": "office-presentation",
+      "id": "pptx-worker",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\pptx\\pptx.worker.js",
+      "copied": true
+    },
+    {
+      "rendererId": "office-presentation-binary",
+      "id": "ppt-module",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\ppt\\index.mjs",
+      "copied": true,
+      "sourcePackage": "@file-viewer/ppt",
+      "sourceVersion": "0.3.6"
+    },
+    {
+      "rendererId": "office-presentation-binary",
+      "id": "ppt-worker",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\ppt\\worker.mjs",
+      "copied": true,
+      "sourcePackage": "@file-viewer/ppt",
+      "sourceVersion": "0.3.6"
+    },
+    {
+      "rendererId": "office-presentation-binary",
+      "id": "ppt-frame-cache",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\ppt\\frame-cache.mjs",
+      "copied": true,
+      "sourcePackage": "@file-viewer/ppt",
+      "sourceVersion": "0.3.6"
+    },
+    {
+      "rendererId": "office-presentation-binary",
+      "id": "ppt-wasm",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\ppt\\ppt-native.wasm",
+      "copied": true,
+      "sourcePackage": "@file-viewer/ppt",
+      "sourceVersion": "0.3.6"
+    },
+    {
+      "rendererId": "office-presentation-binary",
+      "id": "ppt-cjk-font",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\ppt\\ppt-font-cjk.otf",
+      "copied": true,
+      "sourcePackage": "@file-viewer/ppt",
+      "sourceVersion": "0.3.6"
+    },
+    {
+      "rendererId": "office-presentation-binary",
+      "id": "ppt-manifest",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\ppt\\manifest.json",
+      "copied": true,
+      "sourcePackage": "@file-viewer/ppt",
+      "sourceVersion": "0.3.6"
+    },
+    {
+      "rendererId": "office-presentation-binary",
+      "id": "ppt-package",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\ppt\\package.json",
+      "copied": true,
+      "sourcePackage": "@file-viewer/ppt",
+      "sourceVersion": "0.3.6"
+    },
+    {
+      "rendererId": "office-presentation-binary",
+      "id": "ppt-license",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\ppt\\LICENSE",
+      "copied": true,
+      "sourcePackage": "@file-viewer/ppt",
+      "sourceVersion": "0.3.6"
+    },
+    {
+      "rendererId": "office-presentation-binary",
+      "id": "ppt-notice",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\ppt\\NOTICE",
+      "copied": true,
+      "sourcePackage": "@file-viewer/ppt",
+      "sourceVersion": "0.3.6"
+    },
+    {
+      "rendererId": "office-word-openxml",
+      "id": "docx-worker",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\docx\\docx.worker.js",
+      "copied": true
+    },
+    {
+      "rendererId": "office-word-openxml",
+      "id": "docx-worker-jszip",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\docx\\jszip.min.js",
+      "copied": true
+    },
+    {
+      "rendererId": "spreadsheet-openxml",
+      "id": "spreadsheet-worker",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\xlsx\\sheet.worker.js",
+      "copied": true,
+      "sourcePackage": "@file-viewer/renderer-spreadsheet",
+      "sourceVersion": "3.3.0"
+    },
+    {
+      "rendererId": "archive",
+      "id": "libarchive-worker",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\libarchive\\worker-bundle.js",
+      "copied": true
+    },
+    {
+      "rendererId": "archive",
+      "id": "libarchive-wasm",
+      "to": "D:\\work\\decisionlinncplus\\online\\nppstudio.develop\\Controls\\Npp.FlyfishFileViewer\\Web\\vendor\\libarchive\\libarchive.wasm",
+      "copied": true
+    }
+  ]
+}

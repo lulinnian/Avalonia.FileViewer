@@ -1,0 +1,19 @@
+{
+  "name": "npp-flyfish-preview",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "vite build && node collect-notices.js"
+  },
+  "dependencies": {
+    "@file-viewer/core": "3.3.0",
+    "@file-viewer/preset-standard": "3.3.0",
+    "@file-viewer/renderer-ppt": "3.3.0",
+    "@file-viewer/web": "3.3.0"
+  },
+  "devDependencies": {
+    "@file-viewer/vite-plugin": "3.3.0",
+    "vite": "7.3.1"
+  }
+}

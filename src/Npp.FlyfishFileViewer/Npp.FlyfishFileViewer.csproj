@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net10.0</TargetFramework>
+		<Nullable>enable</Nullable>
+		<ImplicitUsings>enable</ImplicitUsings>
+	</PropertyGroup>
+
+	<ItemGroup>
+		<PackageReference Include="Avalonia" />
+		<PackageReference Include="NativeWebView" />
+		<PackageReference Include="NativeWebView.Platform.Windows" />
+		<PackageReference Include="NativeWebView.Platform.macOS" />
+		<PackageReference Include="NativeWebView.Platform.Linux" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<FrameworkReference Include="Microsoft.AspNetCore.App" />
+
+		<Content Include="Web\**\*"
+				 CopyToOutputDirectory="PreserveNewest"
+				 CopyToPublishDirectory="PreserveNewest"
+				 ExcludeFromSingleFile="true"
+				 Link="FlyfishWeb\%(RecursiveDir)%(Filename)%(Extension)" />
+		<Content Include="ThirdPartyNotices\**\*"
+				 CopyToOutputDirectory="PreserveNewest"
+				 CopyToPublishDirectory="PreserveNewest"
+				 ExcludeFromSingleFile="true"
+				 Link="ThirdPartyNotices\Flyfish\%(RecursiveDir)%(Filename)%(Extension)" />
+
+		<None Remove="Frontend\node_modules\**;Frontend\dist\**" />
+		<Compile Remove="Frontend\node_modules\**" />
+	</ItemGroup>
+
+	<Target Name="ValidateFlyfishBundle" BeforeTargets="PrepareForBuild">
+		<Error Condition="!Exists('$(MSBuildProjectDirectory)/Web/index.html') Or !Exists('$(MSBuildProjectDirectory)/Web/vendor/ppt/ppt-native.wasm')"
+			   Text="缺少已打包的 Flyfish 资源。请在 src/Npp.FlyfishFileViewer/Frontend 运行 npm ci --ignore-scripts 和 npm run build。" />
+	</Target>
+</Project>
